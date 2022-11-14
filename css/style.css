@@ -18,6 +18,7 @@ div.black-banner img{
 a.nav-link{
     color: black;
 }
+/*-MAIN-*/
 /*JUMBO*/
 section#jumbo{
     background-image: url(../img/jumbo-bg.png);
@@ -30,4 +31,8 @@ section#jumbo{
 .content-card{
     height: 50px;
     background-color: cadetblue;
+}
+section#it-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    color: white;
 }
