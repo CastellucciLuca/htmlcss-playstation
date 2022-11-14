@@ -42,3 +42,12 @@ section#new-releases{
     background-color: #1f1f1f;
     color: white;
 }
+/*BANNER PS PLUS*/
+section#banner-ps-plus{
+    background-color: #bebcbb;
+}
+/*BANNER PS NOW*/
+section#banner-playstation-now{
+    background-color: #161c3b;
+    color: white;
+}
