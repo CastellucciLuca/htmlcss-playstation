@@ -32,7 +32,13 @@ section#jumbo{
     height: 50px;
     background-color: cadetblue;
 }
+/*IT TAKES TWO*/
 section#it-takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    color: white;
+}
+/*NEW RELEASES*/
+section#new-releases{
+    background-color: #1f1f1f;
     color: white;
 }
