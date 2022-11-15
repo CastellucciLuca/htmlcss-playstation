@@ -2,10 +2,40 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.jumbo-padding{
+    padding-top: 10rem;
+}
 .bg-set{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+/*BUTTONS*/
+.hover-btn{
+    width: max-content;
+    padding: .2rem;
+    border: 2px solid transparent;
+}
+.btn-orange{
+    background-color: #cd3d0f;
+    border: none;
+    color: white;
+}
+.btn-orange:hover{
+    border: 2px solid #0165fc;
+}
+.btn-blue-reverse{
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+.btn-blue-reverse:hover{
+    color: #cbcbd1;
+}
+.hover-blue-reverse-btn{
+    border: 2px solid #d9dadc;
+}
+.hover-white-btn:hover{
+    border: 2px solid white;
 }
 /*HEADER*/
 div.black-banner{
@@ -19,13 +49,16 @@ a.nav-link{
     color: black;
 }
 /*-MAIN-*/
+main{
+    padding-top: 7rem;
+}
 /*JUMBO*/
 section#jumbo{
     background-image: url(../img/jumbo-bg.png);
     color: white;
 }
-.jumbo-padding{
-    padding-top: 10rem;
+p.jumbo-p{
+    font-size: 1.1rem;
 }
 /*GAME PREVIEW*/
 .content-card{
@@ -56,12 +89,10 @@ footer{
     background-color: #00439c;
     color: white;
 }
-.playstation-footer-logo{
+.playstation-footer-logo,
+.sie-logo{
     width: 8rem;
 }
 .language-globe-logo{
     height: 2rem;
-}
-.sie-logo{
-    width: 8rem;
 }
